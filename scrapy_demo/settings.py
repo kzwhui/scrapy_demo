@@ -67,6 +67,7 @@ ROBOTSTXT_OBEY = False
 ITEM_PIPELINES = {
 #    'scrapy_demo.pipelines.SomePipeline': 300,
     'scrapy_demo.pipelines.ScrapyDemoPipeline': 300,
+    'scrapy_demo.pipelines.MysqlPipeline': 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
