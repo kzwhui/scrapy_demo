@@ -36,7 +36,7 @@ def create_logger(logfilename, logName=""):
     return logger
 
 # 这里直接写死，以后好管理
-logger = create_logger(g_conf.LOG_PATH)
+logger = create_logger(g_conf.LOG_PATH + '/')
 def alarm(alarmMsg, dead=False, alarm_level=0):
     global g_logger
     g_logger.critical('[ALARM]'+str(alarmMsg))
