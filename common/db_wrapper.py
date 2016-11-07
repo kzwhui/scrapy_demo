@@ -11,8 +11,7 @@ import time
 import MySQLdb
 import traceback
 from log import logger
-sys.path.append('../conf')
-from conf import g_conf
+from conf.conf import g_conf
 
 class DBWrapper(object):
     def __init__(self, db_config):

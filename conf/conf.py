@@ -30,5 +30,7 @@ class GlobalConfig(object):
         },
         'key_ttl' : 3600
     }
+    
+    LOG_PATH = '/home/zheng/scrapy_demo/log/'
 
 g_conf = GlobalConfig()
